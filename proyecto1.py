@@ -18,3 +18,12 @@ def pro3(b, p):
 	for i in range(p):
 		res = res * b
 	return(res)
+
+#Proyecto numero 4
+n = int(input("num: "))
+p = int(input("palabra: "))
+def pro4(n, p):
+	l = len(p)	
+	cas=(n-l)/2
+
+print(cas)

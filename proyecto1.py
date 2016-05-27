@@ -2,17 +2,19 @@
 
 def pro1(a):
 	if a % 2 == 0:
-		print("El numero es par")
+		return("El numero es par")
 	else:
-		print("El numero es impar")
-
-pro1(100)
+		return("El numero es impar")
 
 #Proyecto numero 2
-
 def pro2(f):
 	a = (f-32)*(5/9)
-	print (a)
-pro2(25)
+	return(a)
 
 #Proyecto numero 3
+def pro3(b, p):
+	res = 1
+	i = 0
+	for i in range(p):
+		res = res * b
+	return(res)

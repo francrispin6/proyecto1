@@ -26,4 +26,4 @@ def pro4(n, p):
 	l = len(p)	
 	cas=(n-l)/2
 
-print(cas)
+return(cas)
